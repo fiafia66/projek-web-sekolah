@@ -1,0 +1,68 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #0000003c),
+    url("tambah.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.box {
+    color: white;
+    background: rgba(80, 134, 192, 0.386);
+    padding: 35px;
+    width: 320px;
+    border-radius: 100px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.397);
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+}
+
+input {
+    width: 93%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background: #0800ff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #110e6d;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}

@@ -1,0 +1,47 @@
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #0000003c),
+    url("index.png");
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+td {
+    background: rgba(80, 134, 192, 0.386);
+    backdrop-filter: blur(5px);
+    color: white;
+    padding: 15px;
+}
+
+th {
+    background: #1e22ff;
+    color: white;
+    padding: 15px;
+}
+
+.btn-tambah {
+    width: 100%;
+    padding: 12px 24px;
+    margin-top: 20px;
+    background: #0800ff;
+    border: 2px solid rgba(255,255,255,0.3);
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-tambah:hover {
+    background: #110e6d;
+}

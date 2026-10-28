@@ -1,0 +1,45 @@
+.video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.2);
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+
+h1{
+    font-size: 60px;
+}
+
+p{
+    font-size: 25px;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 45px;
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 5px;
+    background: transparent;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background: white;
+    color: black;
+}
